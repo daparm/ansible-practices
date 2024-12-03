@@ -36,20 +36,22 @@ theme:
       toggle:
         icon: material/link
         name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      scheme: default
       primary: black
       accent: indigo
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
   font:
     text: Roboto
     code: Roboto Mono
@@ -115,12 +117,14 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
-    - Installation: getting-started.md
-    - Creating your site: creating-your-site.md
-    - Publishing your site: publishing-your-site.md
-    - Customization: customization.md
-    - Conventions: conventions.md
-    - Browser support: browser-support.md
-    - Enterprise feedback: enterprise-support.md
-    - Philosophy: philosophy.md
-    - Alternatives: alternatives.md
+    - Motivation: motivation.md
+  - Ansible Practices:
+    - Practices: Practices.md
+  - Style Guide:
+    - Abstract: abstract_style_guide.md
+    - Rules: rules_style_guide.md
+  - Ansible Automation Platform:
+    - Overview: overview_aap.md
+  - References:
+    - References: links.md
+
