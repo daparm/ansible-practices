@@ -8,6 +8,7 @@ site_description: >-
 # Repository
 repo_name: daparm/ansible-practices
 repo_url: https://github.com/daparm/ansible-practices
+edit_uri: edit/main/docs/
 
 # Configuration
 theme:
@@ -17,7 +18,7 @@ theme:
   features:
     - announce.dismiss
     - content.action.edit
-    - content.action.view
+    # - content.action.view
     - content.code.annotate
     - content.code.copy
     - content.tooltips
