@@ -119,8 +119,13 @@ nav:
   - Home: index.md
   - Getting started:
     - Motivation: motivation.md
+    - Introduction: introduction.md
+    - Core: core.md
+    - Ecosystem: ecosystem.md
+    - AAP: intro_aap.md
   - Ansible Practices:
     - Practices: Practices.md
+    - Templates: templating.md
   - Style Guide:
     - Abstract: abstract_style_guide.md
     - Rules: rules_style_guide.md
